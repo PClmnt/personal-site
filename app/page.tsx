@@ -34,8 +34,9 @@ export default function Home() {
             Budibase uses Svelte as its frontend of choice, and outside of work
             I enjoy using Next / TanStack. I&apos;m also extremely bullish on AI
             and love to create applications that use it (especially open
-            models), and optimise my own AI aided development. I&apos;ve never
-            had more fun being a Software Developer than in this era.
+            models), and optimise my own AI aided development. I genuinely
+            believe that there's never been a better time to be a software
+            developer or even just someone with high agency.
           </p>
           <p className="text-m leading-8 text-slate-300">
             What&apos;s the saying?{" "}
