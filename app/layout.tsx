@@ -23,6 +23,9 @@ const Header = () => {
       <Link href="/">About</Link>
       <span>|</span>
       <a href="/experience">Experience</a>
+      <span>|</span>
+      <a href="/projects">Projects</a>
+
     </nav>
   );
 };

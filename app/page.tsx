@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { GithubIcon } from "./_components/icons";
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -32,26 +33,17 @@ export default function Home() {
             I&apos;ve worked with many technologies across my career, but right
             now I love writing TypeScript, whether on the frontend or backend.
             Budibase uses Svelte as its frontend of choice, and outside of work
-            I enjoy using Next / TanStack. I&apos;m also extremely bullish on AI
-            and love to create applications that use it (especially open
-            models), and optimise my own AI aided development. I genuinely
-            believe that there's never been a better time to be a software
-            developer or even just someone with high agency.
+            I enjoy using Next / TanStack, or honestly whatever tool feels right for the job.
           </p>
-          <p className="text-m leading-8 text-slate-300">
-            What&apos;s the saying?{" "}
-            <i>
-              &quot;An engineer is only as good as the last feature he
-              shipped&quot; 😉{" "}
-            </i>{" "}
-            - See what I shipped{" "}
+          <p className="text-m leading-8 text-slate-300 flex flex-row gap-3">
+            Here's some work I shipped recently at Budibase:
             <a
               className="underline decoration-slate-500 underline-offset-4 hover:text-white transition-colors"
               href="https://github.com/Budibase/budibase/pulls?q=is%3Apr+author%3APClmnt+"
             >
-              here
+              <GithubIcon height={22} width={22} />
+
             </a>
-            .
           </p>
 
           <p className="text-m leading-8 text-slate-300">
