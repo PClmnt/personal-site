@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -46,6 +47,7 @@ export default function RootLayout({
         <div className="flex items-center w-full max-w-3xl flex-row gap-4 px-1 mx-auto">
           {children}
         </div>
+        <Analytics />
       </body>
     </html>
   );
